@@ -23,9 +23,14 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
     "node-sass": "^4.5.3",
     "postcss-cli": "^4.1.0",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "sass-convert": "^0.5.2",
+    "sassdoc": "^2.3.0",
+    "vinyl-fs": "^2.4.4"
   },
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix",
